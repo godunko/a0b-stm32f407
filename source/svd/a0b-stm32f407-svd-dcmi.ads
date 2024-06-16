@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.DCMI is
+package A0B.STM32F407.SVD.DCMI is
    pragma Preelaborate;
 
    ---------------
@@ -372,4 +372,4 @@ package A0B.SVD.STM32F407.DCMI is
    DCMI_Periph : aliased DCMI_Peripheral
      with Import, Address => DCMI_Base;
 
-end A0B.SVD.STM32F407.DCMI;
+end A0B.STM32F407.SVD.DCMI;

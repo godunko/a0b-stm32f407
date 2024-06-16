@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.DBG is
+package A0B.STM32F407.SVD.DBG is
    pragma Preelaborate;
 
    ---------------
@@ -212,4 +212,4 @@ package A0B.SVD.STM32F407.DBG is
    DBG_Periph : aliased DBG_Peripheral
      with Import, Address => DBG_Base;
 
-end A0B.SVD.STM32F407.DBG;
+end A0B.STM32F407.SVD.DBG;

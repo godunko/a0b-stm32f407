@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.DMA is
+package A0B.STM32F407.SVD.DMA is
    pragma Preelaborate;
 
    ---------------
@@ -1554,4 +1554,4 @@ package A0B.SVD.STM32F407.DMA is
    DMA2_Periph : aliased DMA_Peripheral
      with Import, Address => DMA2_Base;
 
-end A0B.SVD.STM32F407.DMA;
+end A0B.STM32F407.SVD.DMA;

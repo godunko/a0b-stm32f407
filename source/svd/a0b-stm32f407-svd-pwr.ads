@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.PWR is
+package A0B.STM32F407.SVD.PWR is
    pragma Preelaborate;
 
    ---------------
@@ -113,4 +113,4 @@ package A0B.SVD.STM32F407.PWR is
    PWR_Periph : aliased PWR_Peripheral
      with Import, Address => PWR_Base;
 
-end A0B.SVD.STM32F407.PWR;
+end A0B.STM32F407.SVD.PWR;

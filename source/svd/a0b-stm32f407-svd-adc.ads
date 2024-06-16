@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.ADC is
+package A0B.STM32F407.SVD.ADC is
    pragma Preelaborate;
 
    ---------------
@@ -737,4 +737,4 @@ package A0B.SVD.STM32F407.ADC is
    C_ADC_Periph : aliased C_ADC_Peripheral
      with Import, Address => C_ADC_Base;
 
-end A0B.SVD.STM32F407.ADC;
+end A0B.STM32F407.SVD.ADC;

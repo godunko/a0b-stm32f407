@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.SDIO is
+package A0B.STM32F407.SVD.SDIO is
    pragma Preelaborate;
 
    ---------------
@@ -515,4 +515,4 @@ package A0B.SVD.STM32F407.SDIO is
    SDIO_Periph : aliased SDIO_Peripheral
      with Import, Address => SDIO_Base;
 
-end A0B.SVD.STM32F407.SDIO;
+end A0B.STM32F407.SVD.SDIO;

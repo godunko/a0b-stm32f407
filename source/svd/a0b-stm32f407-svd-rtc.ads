@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.RTC is
+package A0B.STM32F407.SVD.RTC is
    pragma Preelaborate;
 
    ---------------
@@ -835,4 +835,4 @@ package A0B.SVD.STM32F407.RTC is
    RTC_Periph : aliased RTC_Peripheral
      with Import, Address => RTC_Base;
 
-end A0B.SVD.STM32F407.RTC;
+end A0B.STM32F407.SVD.RTC;

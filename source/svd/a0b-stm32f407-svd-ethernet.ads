@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.Ethernet is
+package A0B.STM32F407.SVD.Ethernet is
    pragma Preelaborate;
 
    ---------------
@@ -1307,4 +1307,4 @@ package A0B.SVD.STM32F407.Ethernet is
    Ethernet_PTP_Periph : aliased Ethernet_PTP_Peripheral
      with Import, Address => Ethernet_PTP_Base;
 
-end A0B.SVD.STM32F407.Ethernet;
+end A0B.STM32F407.SVD.Ethernet;

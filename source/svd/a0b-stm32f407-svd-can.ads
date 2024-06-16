@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.CAN is
+package A0B.STM32F407.SVD.CAN is
    pragma Preelaborate;
 
    ---------------
@@ -2197,4 +2197,4 @@ package A0B.SVD.STM32F407.CAN is
    CAN2_Periph : aliased CAN_Peripheral
      with Import, Address => CAN2_Base;
 
-end A0B.SVD.STM32F407.CAN;
+end A0B.STM32F407.SVD.CAN;

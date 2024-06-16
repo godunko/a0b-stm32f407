@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.IWDG is
+package A0B.STM32F407.SVD.IWDG is
    pragma Preelaborate;
 
    ---------------
@@ -111,4 +111,4 @@ package A0B.SVD.STM32F407.IWDG is
    IWDG_Periph : aliased IWDG_Peripheral
      with Import, Address => IWDG_Base;
 
-end A0B.SVD.STM32F407.IWDG;
+end A0B.STM32F407.SVD.IWDG;

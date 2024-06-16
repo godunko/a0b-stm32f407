@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.FSMC is
+package A0B.STM32F407.SVD.FSMC is
    pragma Preelaborate;
 
    ---------------
@@ -691,4 +691,4 @@ package A0B.SVD.STM32F407.FSMC is
    FSMC_Periph : aliased FSMC_Peripheral
      with Import, Address => FSMC_Base;
 
-end A0B.SVD.STM32F407.FSMC;
+end A0B.STM32F407.SVD.FSMC;

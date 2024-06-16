@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.USB_OTG_FS is
+package A0B.STM32F407.SVD.USB_OTG_FS is
    pragma Preelaborate;
 
    ---------------
@@ -2106,4 +2106,4 @@ package A0B.SVD.STM32F407.USB_OTG_FS is
    OTG_FS_PWRCLK_Periph : aliased OTG_FS_PWRCLK_Peripheral
      with Import, Address => OTG_FS_PWRCLK_Base;
 
-end A0B.SVD.STM32F407.USB_OTG_FS;
+end A0B.STM32F407.SVD.USB_OTG_FS;

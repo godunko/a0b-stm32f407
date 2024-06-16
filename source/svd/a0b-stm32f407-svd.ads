@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with System;
 
 --  STM32F407
-package A0B.SVD.STM32F407 is
+package A0B.STM32F407.SVD is
    pragma Preelaborate;
 
    --------------------
@@ -91,4 +91,4 @@ package A0B.SVD.STM32F407 is
    HASH_Base : constant System.Address := System'To_Address (16#50060400#);
    CRYP_Base : constant System.Address := System'To_Address (16#50060000#);
 
-end A0B.SVD.STM32F407;
+end A0B.STM32F407.SVD;

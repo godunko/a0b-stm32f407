@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.SPI is
+package A0B.STM32F407.SVD.SPI is
    pragma Preelaborate;
 
    ---------------
@@ -338,4 +338,4 @@ package A0B.SVD.STM32F407.SPI is
    SPI3_Periph : aliased SPI_Peripheral
      with Import, Address => SPI3_Base;
 
-end A0B.SVD.STM32F407.SPI;
+end A0B.STM32F407.SVD.SPI;

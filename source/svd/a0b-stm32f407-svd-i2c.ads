@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.I2C is
+package A0B.STM32F407.SVD.I2C is
    pragma Preelaborate;
 
    ---------------
@@ -371,4 +371,4 @@ package A0B.SVD.STM32F407.I2C is
    I2C3_Periph : aliased I2C_Peripheral
      with Import, Address => I2C3_Base;
 
-end A0B.SVD.STM32F407.I2C;
+end A0B.STM32F407.SVD.I2C;

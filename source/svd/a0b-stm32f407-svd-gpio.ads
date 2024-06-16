@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.GPIO is
+package A0B.STM32F407.SVD.GPIO is
    pragma Preelaborate;
 
    ---------------
@@ -467,4 +467,4 @@ package A0B.SVD.STM32F407.GPIO is
    GPIOK_Periph : aliased GPIO_Peripheral
      with Import, Address => GPIOK_Base;
 
-end A0B.SVD.STM32F407.GPIO;
+end A0B.STM32F407.SVD.GPIO;

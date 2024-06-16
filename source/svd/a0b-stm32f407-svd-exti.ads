@@ -7,7 +7,7 @@ pragma Restrictions (No_Elaboration_Code);
 with A0B.Types.SVD;
 with System;
 
-package A0B.SVD.STM32F407.EXTI is
+package A0B.STM32F407.SVD.EXTI is
    pragma Preelaborate;
 
    ---------------
@@ -282,4 +282,4 @@ package A0B.SVD.STM32F407.EXTI is
    EXTI_Periph : aliased EXTI_Peripheral
      with Import, Address => EXTI_Base;
 
-end A0B.SVD.STM32F407.EXTI;
+end A0B.STM32F407.SVD.EXTI;
