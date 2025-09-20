@@ -8,6 +8,9 @@ maintainers-logins = ["godunko"]
 licenses = "Apache-2.0 WITH LLVM-exception"
 tags = ["a0b", "embedded", "svd", "stm32", "stm32f4", "stm32f407"]
 
+[environment]
+A0B_TOOLS_SVD.set = "${CRATE_ROOT}/svd/STM32F407.svd"
+
 [configuration]
 generate_ada = false
 generate_c = false
