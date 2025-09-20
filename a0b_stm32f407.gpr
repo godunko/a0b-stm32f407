@@ -1,10 +1,10 @@
 --
---  Copyright (C) 2024, Vadim Godunko
+--  Copyright (C) 2025, Vadim Godunko
 --
 --  SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 --
 
-with "../config/a0b_stm32f407_config";
+with "config/a0b_stm32f407_config";
 
 with "a0b_common";
 
@@ -21,8 +21,8 @@ project A0B_STM32F407 is
          null;
    end case;
 
-   for Source_Dirs use ("../source", "../source/svd");
-   for Object_Dir use "../.objs/" & A0B_Common.Object_Dir_Suffix;
+   for Source_Dirs use ("source", "source/svd");
+   for Object_Dir use ".objs/" & A0B_Common.Object_Dir_Suffix;
 
    package Compiler is
       for Switches ("Ada") use A0B_Common.Compiler_Switches_Ada;
