@@ -1,15 +1,13 @@
 --
---  Copyright (C) 2024, Vadim Godunko <vgodunko@gmail.com>
+--  Copyright (C) 2024-2025, Vadim Godunko <vgodunko@gmail.com>
 --
 --  SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 --
 
-pragma Restrictions (No_Elaboration_Code);
-
 with A0B.ARMv7M;
 
 package A0B.STM32F407
-  with Preelaborate
+  with Preelaborate, No_Elaboration_Code_All
 is
 
    EXTI0        : constant A0B.ARMv7M.External_Interrupt_Number := 6;
