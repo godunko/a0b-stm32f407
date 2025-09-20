@@ -9,6 +9,7 @@ licenses = "Apache-2.0 WITH LLVM-exception"
 tags = ["a0b", "embedded", "svd", "stm32", "stm32f4", "stm32f407"]
 
 [environment]
+A0B_TOOLS_BINDING_STARTUP.set = "${CRATE_ROOT}/binding/startup/stm32f407.json"
 A0B_TOOLS_SVD.set = "${CRATE_ROOT}/svd/STM32F407.svd"
 
 [configuration]
