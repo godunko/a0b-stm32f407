@@ -23,6 +23,10 @@ is
    DMA1_Stream5 : constant A0B.ARMv7M.External_Interrupt_Number := 16;
    DMA1_Stream6 : constant A0B.ARMv7M.External_Interrupt_Number := 17;
 
+   CAN1_TX      : constant A0B.ARMv7M.External_Interrupt_Number := 19;
+   CAN1_RX0     : constant A0B.ARMv7M.External_Interrupt_Number := 20;
+   CAN1_RX1     : constant A0B.ARMv7M.External_Interrupt_Number := 21;
+   CAN1_SCE     : constant A0B.ARMv7M.External_Interrupt_Number := 22;
    EXTI9_5      : constant A0B.ARMv7M.External_Interrupt_Number := 23;
 
    SPI1         : constant A0B.ARMv7M.External_Interrupt_Number := 35;
@@ -30,7 +34,11 @@ is
 
    EXTI15_10    : constant A0B.ARMv7M.External_Interrupt_Number := 40;
 
+   OTG_FS_WKUP  : constant A0B.ARMv7M.External_Interrupt_Number := 42;
+
    DMA1_Stream7 : constant A0B.ARMv7M.External_Interrupt_Number := 47;
+
+   SDIO         : constant A0B.ARMv7M.External_Interrupt_Number := 49;
 
    SPI3         : constant A0B.ARMv7M.External_Interrupt_Number := 51;
 
@@ -40,6 +48,11 @@ is
    DMA2_Stream3 : constant A0B.ARMv7M.External_Interrupt_Number := 59;
    DMA2_Stream4 : constant A0B.ARMv7M.External_Interrupt_Number := 60;
 
+   CAN1_TX      : constant A0B.ARMv7M.External_Interrupt_Number := 63;
+   CAN1_RX0     : constant A0B.ARMv7M.External_Interrupt_Number := 64;
+   CAN1_RX1     : constant A0B.ARMv7M.External_Interrupt_Number := 65;
+   CAN1_SCE     : constant A0B.ARMv7M.External_Interrupt_Number := 66;
+   OTG_FS       : constant A0B.ARMv7M.External_Interrupt_Number := 67;
    DMA2_Stream5 : constant A0B.ARMv7M.External_Interrupt_Number := 68;
    DMA2_Stream6 : constant A0B.ARMv7M.External_Interrupt_Number := 69;
    DMA2_Stream7 : constant A0B.ARMv7M.External_Interrupt_Number := 70;
